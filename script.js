@@ -157,7 +157,7 @@ document.getElementById('btnPlay').addEventListener('click', function () {
                         break;
 
                     case 3:
-                        answerPhrase = `Не жульничайте!\n\u{1F620}`
+                        answerPhrase = `Я сдаюсь!\n\u{1F620}`
                         break;
                 }
                 answerField.innerText = answerPhrase;
@@ -182,7 +182,7 @@ document.getElementById('btnPlay').addEventListener('click', function () {
                         break;
 
                     case 4:
-                        answerPhrase = `Скорее всего это число `
+                        answerPhrase = `Я думаю, это число `
                         break;
                 }
                 answerField.innerText = answerNumber >= 0 ? numberToText().length < 20 && answerNumber >= 0 ? `Вы загадали число ${numberToText()}?`
@@ -209,7 +209,7 @@ document.getElementById('btnPlay').addEventListener('click', function () {
                         break;
 
                     case 3:
-                        answerPhrase = `Не жульничайте!\n\u{1F620}`
+                        answerPhrase = `Я сдаюсь!\n\u{1F620}`
                         break;
                 }
                 answerField.innerText = answerPhrase;
@@ -238,7 +238,7 @@ document.getElementById('btnPlay').addEventListener('click', function () {
                         break;
 
                     case 4:
-                        answerPhrase = `Скорее всего это число `
+                        answerPhrase = `Я думаю, это число `
                         break;
                 }
                 answerField.innerText = answerNumber >= 0 ? numberToText().length < 20 && answerNumber >= 0 ? `Вы загадали число ${numberToText()}?`
@@ -256,7 +256,7 @@ document.getElementById('btnPlay').addEventListener('click', function () {
                     break;
 
                 case 1:
-                    answerPhrase = `Yes! \n\u{1F60E}`
+                    answerPhrase = `Я знал! \n\u{1F60E}`
                     break;
 
                 case 2:
